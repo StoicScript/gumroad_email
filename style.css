@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+   font-size: 13px;
+   margin-top: 25px;
+   font-weight: normal;
+}
+
+h2{
+    padding-bottom: 20px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+h3{
+    padding-bottom: 20px;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+a{
+    color: black;
+}
+
+img{
+    position: relative;
+    top: 25px;
+    left: 3px; 
+    width: auto;
+    height: 15px;
+}
+
+#pink{
+    background-color: rgb(255, 123, 193);
+}
+#black{
+    background-color: black;
+    color: white
+}
+
+#black:hover{
+    box-shadow: 4px 4px rgb(255, 123, 193);
+}
+
+button{
+    justify-self: center;
+    width: 100%;
+    border: 1px solid black;
+    height: 40px;
+    font-weight: lighter;
+    border-radius: 4px;
+    transform: translate(0x, 0px);
+    transition-duration: 0.3s;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+button:hover{
+    box-shadow: 4px 4px black;
+    transform: translate(-4px, -4px);
+    transition-duration: 0.3s;
+}
+
+.date{
+    margin-left: 20px;
+}
+
+.emailBody {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    background-color: white;
+    height: 75vh;
+    width: 30%;
+
+}
+
+.innerDiv{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 90%;
+    width: 90%;
+    margin-top: 5%;
+}
+
+.inner{
+    flex-grow: 7;
+    background-color: white;
+    border: 1px solid black;
+
+}
+
+#in1{
+    display: inline-block;
+    flex-grow: 0.5;
+}
+
+#in2, #in3{
+    display: flex-wrap;
+    justify-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    flex-grow: 0.5;
+    border-top: none;
+}
+
+#in4{
+    display: flex-wrap;
+    text-align: center;
+    line-height: 1px;
+    flex-grow: 0.5;
+    border-top: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
